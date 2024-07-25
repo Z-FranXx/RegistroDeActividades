@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0": []
   },
   "packageFolders": {
     "C:\\Users\\pc\\.nuget\\packages\\": {}
@@ -13,18 +13,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\RegistroDeActividades.UI.csproj",
-      "projectName": "RegistroDeActividades.UI",
-      "projectPath": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\RegistroDeActividades.UI.csproj",
+      "projectUniqueName": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj",
+      "projectName": "RegistroDeActividades.Data",
+      "projectPath": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\obj\\",
+      "outputPath": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0-windows"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -32,8 +32,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -49,8 +49,8 @@
       }
     },
     "frameworks": {
-      "net8.0-windows7.0": {
-        "targetAlias": "net8.0-windows",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -65,9 +65,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"

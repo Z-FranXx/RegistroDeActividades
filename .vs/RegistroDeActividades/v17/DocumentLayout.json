@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\Trabajo final_P2\\RegistroDeActividades\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.csproj|d:\\trabajo final_p2\\registrodeactividades\\registrodeactividades\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.csproj|solutionrelative:registrodeactividades\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4A1DBEEF-F7A6-4030-9991-DA10DD854A25}|RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj|d:\\trabajo final_p2\\registrodeactividades\\registrodeactividades.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1DBEEF-F7A6-4030-9991-DA10DD854A25}|RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj|solutionrelative:registrodeactividades.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1DBEEF-F7A6-4030-9991-DA10DD854A25}|RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj|d:\\trabajo final_p2\\registrodeactividades\\registrodeactividades.data\\actividadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1DBEEF-F7A6-4030-9991-DA10DD854A25}|RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj|solutionrelative:registrodeactividades.data\\actividadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE80C858-DE5E-401D-93F4-6F1303C3D304}|RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj|d:\\trabajo final_p2\\registrodeactividades\\registrodeactividades.services\\actividadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE80C858-DE5E-401D-93F4-6F1303C3D304}|RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj|solutionrelative:registrodeactividades.services\\actividadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1767B1-42DB-4070-9C45-F05CE4AF46CE}|RegistroDeActividades.Entities\\RegistroDeActividades.Entities.csproj|d:\\trabajo final_p2\\registrodeactividades\\registrodeactividades.entities\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1767B1-42DB-4070-9C45-F05CE4AF46CE}|RegistroDeActividades.Entities\\RegistroDeActividades.Entities.csproj|solutionrelative:registrodeactividades.entities\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|d:\\trabajo final_p2\\registrodeactividades\\registrodeactividades\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|solutionrelative:registrodeactividades\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,16 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActividadService.cs",
+              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Services\\ActividadService.cs",
+              "RelativeDocumentMoniker": "RegistroDeActividades.Services\\ActividadService.cs",
+              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Services\\ActividadService.cs",
+              "RelativeToolTip": "RegistroDeActividades.Services\\ActividadService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T02:47:04.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActividadRepository.cs",
+              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Data\\ActividadRepository.cs",
+              "RelativeDocumentMoniker": "RegistroDeActividades.Data\\ActividadRepository.cs",
+              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Data\\ActividadRepository.cs",
+              "RelativeToolTip": "RegistroDeActividades.Data\\ActividadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T02:45:13.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\Form1.cs",
-              "RelativeDocumentMoniker": "RegistroDeActividades\\Form1.cs",
-              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\Form1.cs [Design]",
-              "RelativeToolTip": "RegistroDeActividades\\Form1.cs [Design]",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RegistroDeActividades.Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Data\\AppDbContext.cs",
+              "RelativeToolTip": "RegistroDeActividades.Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T02:44:29.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Actividad.cs",
+              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Entities\\Actividad.cs",
+              "RelativeDocumentMoniker": "RegistroDeActividades.Entities\\Actividad.cs",
+              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades.Entities\\Actividad.cs",
+              "RelativeToolTip": "RegistroDeActividades.Entities\\Actividad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T02:35:42.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\MainForm.cs",
+              "RelativeDocumentMoniker": "RegistroDeActividades\\MainForm.cs",
+              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\MainForm.cs [Design]",
+              "RelativeToolTip": "RegistroDeActividades\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T01:28:17.594Z",
               "EditorCaption": " [Design]"
