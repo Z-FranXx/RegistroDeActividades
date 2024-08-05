@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RegistroDeActividades.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f583c4cde8e004256b0ac248a1f4f951b3c2af1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac98879cc0d462586ee2ac7c88f3f81fee52ab46")]
 [assembly: System.Reflection.AssemblyProductAttribute("RegistroDeActividades.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RegistroDeActividades.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
