@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "b4rUOCcYVuE=",
+  "dgSpecHash": "Tzv9fckP4Vg=",
   "success": true,
   "projectFilePath": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\RegistroDeActividades.UI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

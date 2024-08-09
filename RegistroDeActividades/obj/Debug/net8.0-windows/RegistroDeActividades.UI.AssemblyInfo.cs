@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RegistroDeActividades.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3eac81fd5caa288e189574dacf0009b65c39099b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fac0fc117ae9d45e69d80246e1116f07c09701ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("RegistroDeActividades.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RegistroDeActividades.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistroDeActividades.Data"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistroDeActividades.Services", "RegistroDeActividades.Services\RegistroDeActividades.Services.csproj", "{EE80C858-DE5E-401D-93F4-6F1303C3D304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppRegistroDeActividades.API", "WebAppRegistroDeActividades.API\WebAppRegistroDeActividades.API.csproj", "{082532AE-0EC2-4391-9478-CBC8BC2D481F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppRegistroDeActividades.API", "WebAppRegistroDeActividades.API\WebAppRegistroDeActividades.API.csproj", "{082532AE-0EC2-4391-9478-CBC8BC2D481F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
