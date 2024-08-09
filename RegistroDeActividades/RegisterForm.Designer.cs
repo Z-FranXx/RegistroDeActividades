@@ -39,7 +39,7 @@
             label5 = new Label();
             signup_singup = new Button();
             label4 = new Label();
-            login_showPasword = new CheckBox();
+            signup_showPasword = new CheckBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -57,6 +57,7 @@
             signup_btn.TabIndex = 18;
             signup_btn.Text = "SINGUP";
             signup_btn.UseVisualStyleBackColor = false;
+            signup_btn.Click += signup_btn_Click;
             // 
             // signup_password
             // 
@@ -64,6 +65,7 @@
             signup_password.Margin = new Padding(4, 2, 4, 2);
             signup_password.Multiline = true;
             signup_password.Name = "signup_password";
+            signup_password.PasswordChar = '*';
             signup_password.Size = new Size(369, 39);
             signup_password.TabIndex = 17;
             // 
@@ -171,16 +173,17 @@
             label4.TabIndex = 0;
             label4.Text = "Inicia tu cuenta";
             // 
-            // login_showPasword
+            // signup_showPasword
             // 
-            login_showPasword.AutoSize = true;
-            login_showPasword.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            login_showPasword.Location = new Point(639, 344);
-            login_showPasword.Name = "login_showPasword";
-            login_showPasword.Size = new Size(130, 22);
-            login_showPasword.TabIndex = 19;
-            login_showPasword.Text = "Show Password";
-            login_showPasword.UseVisualStyleBackColor = true;
+            signup_showPasword.AutoSize = true;
+            signup_showPasword.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            signup_showPasword.Location = new Point(639, 344);
+            signup_showPasword.Name = "signup_showPasword";
+            signup_showPasword.Size = new Size(130, 22);
+            signup_showPasword.TabIndex = 19;
+            signup_showPasword.Text = "Show Password";
+            signup_showPasword.UseVisualStyleBackColor = true;
+            signup_showPasword.CheckedChanged += login_showPasword_CheckedChanged;
             // 
             // RegisterForm
             // 
@@ -188,7 +191,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(808, 593);
-            Controls.Add(login_showPasword);
+            Controls.Add(signup_showPasword);
             Controls.Add(signup_btn);
             Controls.Add(signup_password);
             Controls.Add(label3);
@@ -219,6 +222,6 @@
         private Label label5;
         private Button signup_singup;
         private Label label4;
-        private CheckBox login_showPasword;
+        private CheckBox signup_showPasword;
     }
 }
