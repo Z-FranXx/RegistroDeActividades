@@ -76,7 +76,7 @@
             label5.ForeColor = Color.White;
             label5.Location = new Point(44, 281);
             label5.Name = "label5";
-            label5.Size = new Size(239, 18);
+            label5.Size = new Size(287, 22);
             label5.TabIndex = 2;
             label5.Text = "Registro De Actividades system 1.0";
             // 
@@ -101,7 +101,7 @@
             label4.ForeColor = Color.White;
             label4.Location = new Point(129, 502);
             label4.Name = "label4";
-            label4.Size = new Size(101, 14);
+            label4.Size = new Size(121, 18);
             label4.TabIndex = 0;
             label4.Text = "Crear una cuenta";
             // 
@@ -112,7 +112,7 @@
             label1.Location = new Point(461, 65);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(247, 40);
+            label1.Size = new Size(314, 51);
             label1.TabIndex = 2;
             label1.Text = "Iniciar Sesión";
             label1.Click += label1_Click;
@@ -124,7 +124,7 @@
             label2.Location = new Point(403, 142);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(77, 18);
+            label2.Size = new Size(98, 25);
             label2.TabIndex = 3;
             label2.Text = "Usuario:";
             label2.Click += label2_Click;
@@ -145,7 +145,7 @@
             label3.Location = new Point(403, 250);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(108, 18);
+            label3.Size = new Size(136, 25);
             label3.TabIndex = 5;
             label3.Text = "Contraseña:";
             // 
@@ -155,6 +155,7 @@
             login_password.Margin = new Padding(4, 2, 4, 2);
             login_password.Multiline = true;
             login_password.Name = "login_password";
+            login_password.PasswordChar = '*';
             login_password.Size = new Size(369, 39);
             login_password.TabIndex = 10;
             // 
@@ -171,6 +172,7 @@
             login_btn.TabIndex = 11;
             login_btn.Text = "Iniciar sesión";
             login_btn.UseVisualStyleBackColor = false;
+            login_btn.Click += login_btn_Click;
             // 
             // login_showPasword
             // 
@@ -178,14 +180,15 @@
             login_showPasword.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             login_showPasword.Location = new Point(635, 321);
             login_showPasword.Name = "login_showPasword";
-            login_showPasword.Size = new Size(130, 18);
+            login_showPasword.Size = new Size(157, 22);
             login_showPasword.TabIndex = 12;
             login_showPasword.Text = "Mostrar contraseña";
             login_showPasword.UseVisualStyleBackColor = true;
+            login_showPasword.CheckedChanged += login_showPasword_CheckedChanged;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 18F);
+            AutoScaleDimensions = new SizeF(13F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(808, 593);

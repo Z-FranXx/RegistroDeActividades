@@ -69,5 +69,15 @@ namespace RegistroDeActividades.UI.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OIG2_Logo_fotor_bg_remover_20240808221534 {
+            get {
+                object obj = ResourceManager.GetObject("OIG2 Logo-fotor-bg-remover-20240808221534", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

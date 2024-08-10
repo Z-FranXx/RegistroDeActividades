@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj": {}
+    "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj": {
+    "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj",
+        "projectUniqueName": "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj",
         "projectName": "RegistroDeActividades.Services",
-        "projectPath": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj",
-        "packagesPath": "C:\\Users\\epera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades.Services\\obj\\",
+        "projectPath": "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Services\\RegistroDeActividades.Services.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\epera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
