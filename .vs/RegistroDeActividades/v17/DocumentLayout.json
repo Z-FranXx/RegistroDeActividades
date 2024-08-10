@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Trabajo final_P2\\RegistroDeActividades\\",
+  "WorkspaceRootPath": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|d:\\trabajo final_p2\\registrodeactividades\\registrodeactividades\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|c:\\users\\epera\\onedrive\\escritorio\\proyecto\\registrodeactividades\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|solutionrelative:registrodeactividades\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|D:\\Trabajo final_P2\\RegistroDeActividades\\registrodeactividades\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|solutionrelative:registrodeactividades\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Trabajo final_P2\\RegistroDeActividades\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|D:\\Trabajo final_P2\\RegistroDeActividades\\registrodeactividades\\loginrda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\registrodeactividades\\loginrda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|solutionrelative:registrodeactividades\\loginrda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|d:\\trabajo final_p2\\registrodeactividades\\registrodeactividades\\loginrda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|solutionrelative:registrodeactividades\\loginrda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Trabajo final_P2\\RegistroDeActividades\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\registrodeactividades\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{501FD787-9B12-42BA-BB82-859D398A274E}|RegistroDeActividades\\RegistroDeActividades.UI.csproj|solutionrelative:registrodeactividades\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,64 +26,40 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\RegisterForm.cs",
+              "DocumentIndex": 2,
+              "Title": "RegisterForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades\\RegisterForm.cs",
               "RelativeDocumentMoniker": "RegistroDeActividades\\RegisterForm.cs",
-              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "RegistroDeActividades\\RegisterForm.cs [Design]",
+              "ToolTip": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades\\RegisterForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RegistroDeActividades\\RegisterForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T08:43:08.615Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RegisterForm.cs",
-              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades\\RegisterForm.cs",
               "RelativeDocumentMoniker": "RegistroDeActividades\\RegisterForm.cs",
-              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades\\RegisterForm.cs",
               "RelativeToolTip": "RegistroDeActividades\\RegisterForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T09:11:28.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginRDA.cs [Design]",
-              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\LoginRDA.cs",
+              "DocumentIndex": 1,
+              "Title": "LoginRDA.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades\\LoginRDA.cs",
               "RelativeDocumentMoniker": "RegistroDeActividades\\LoginRDA.cs",
-              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\LoginRDA.cs [Design]",
-              "RelativeToolTip": "RegistroDeActividades\\LoginRDA.cs [Design]",
+              "ToolTip": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\RegistroDeActividades\\LoginRDA.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RegistroDeActividades\\LoginRDA.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T01:28:17.594Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\SQLQuery1.sql",
-              "RelativeDocumentMoniker": "SQLQuery1.sql",
-              "ToolTip": "SQLQuery1.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-09T08:24:35.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginRDA.cs",
-              "DocumentMoniker": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\LoginRDA.cs",
-              "RelativeDocumentMoniker": "RegistroDeActividades\\LoginRDA.cs",
-              "ToolTip": "D:\\Trabajo final_P2\\RegistroDeActividades\\RegistroDeActividades\\LoginRDA.cs",
-              "RelativeToolTip": "RegistroDeActividades\\LoginRDA.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAADgvygAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T04:31:25.052Z",
-              "EditorCaption": ""
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

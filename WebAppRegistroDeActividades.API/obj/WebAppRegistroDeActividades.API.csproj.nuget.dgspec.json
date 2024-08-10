@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Trabajo final_P2\\RegistroDeActividades\\WebAppRegistroDeActividades.API\\WebAppRegistroDeActividades.API.csproj": {}
+    "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\WebAppRegistroDeActividades.API\\WebAppRegistroDeActividades.API.csproj": {}
   },
   "projects": {
-    "D:\\Trabajo final_P2\\RegistroDeActividades\\WebAppRegistroDeActividades.API\\WebAppRegistroDeActividades.API.csproj": {
+    "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\WebAppRegistroDeActividades.API\\WebAppRegistroDeActividades.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Trabajo final_P2\\RegistroDeActividades\\WebAppRegistroDeActividades.API\\WebAppRegistroDeActividades.API.csproj",
+        "projectUniqueName": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\WebAppRegistroDeActividades.API\\WebAppRegistroDeActividades.API.csproj",
         "projectName": "WebAppRegistroDeActividades.API",
-        "projectPath": "D:\\Trabajo final_P2\\RegistroDeActividades\\WebAppRegistroDeActividades.API\\WebAppRegistroDeActividades.API.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Trabajo final_P2\\RegistroDeActividades\\WebAppRegistroDeActividades.API\\obj\\",
+        "projectPath": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\WebAppRegistroDeActividades.API\\WebAppRegistroDeActividades.API.csproj",
+        "packagesPath": "C:\\Users\\epera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto\\WebAppRegistroDeActividades.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\epera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
