@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAppRegistroDeActividades.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e4946aad14904be47307f236b8f2cf47aba6b3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+340c0b65e6b2d53f19365e96f47202d77036ed5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAppRegistroDeActividades.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAppRegistroDeActividades.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -39,51 +39,42 @@ namespace RegistroDeActividades.UI
                             connect.Open();
 
                             // Verificar si el ID ya está en uso
-                            string checkVoID = "SELECT COUNT(*) FROM voluntarios WHERE voluntario_id = @voID";
+                            string checkVoID = "SELECT COUNT(*) FROM voluntarios WHERE id = id";
 
                             using (SqlCommand checkVo = new SqlCommand(checkVoID, connect))
                             {
-                                checkVo.Parameters.AddWithValue("@voID", voluntario_id.Text.Trim());
-                                int count = (int)checkVo.ExecuteScalar();
 
-                                if (count > 0)
+                                DateTime today = DateTime.Today;
+                                string insertData = "INSERT INTO voluntarios " +
+                                    "(nombre, genero, numero, correo, imagen, insert_date) " +
+                                    "VALUES ( @nombre, @genero, @numero, @correo, @imagen, @insertDate)";
+
+                                string path = Path.Combine(@"C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades\Directory\"
+                                    + voluntario_id.Text.Trim() + ".jpg");
+
+                                string directoryPath = Path.GetDirectoryName(path);
+
+                                if (!Directory.Exists(directoryPath))
                                 {
-                                    MessageBox.Show(voluntario_id.Text.Trim() + " ya está en uso", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    Directory.CreateDirectory(directoryPath);
                                 }
-                                else
+
+                                File.Copy(voluntarios_imagen.ImageLocation, path, true);
+
+                                using (SqlCommand cmd = new SqlCommand(insertData, connect))
                                 {
-                                    DateTime today = DateTime.Today;
-                                    string insertData = "INSERT INTO voluntarios " +
-                                        "(nombre, genero, numero, correo, imagen, insert_date) " +
-                                        "VALUES ( @nombre, @genero, @numero, @correo, @imagen, @insertDate)";
+                                    cmd.Parameters.AddWithValue("@nombre", voluntarios_nombre.Text.Trim());
+                                    cmd.Parameters.AddWithValue("@genero", voluntarios_genero.Text.Trim());
+                                    cmd.Parameters.AddWithValue("@numero", voluntarios_numero.Text.Trim());
+                                    cmd.Parameters.AddWithValue("@correo", voluntarios_correo.Text.Trim());
+                                    cmd.Parameters.AddWithValue("@imagen", path);
+                                    cmd.Parameters.AddWithValue("@insertDate", today);
 
-                                    string path = Path.Combine(@"C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades\Directory\"
-                                        + voluntario_id.Text.Trim() + ".jpg");
+                                    cmd.ExecuteNonQuery();
 
-                                    string directoryPath = Path.GetDirectoryName(path);
+                                    DisplayVoluntariosData();
 
-                                    if (!Directory.Exists(directoryPath))
-                                    {
-                                        Directory.CreateDirectory(directoryPath);
-                                    }
-
-                                    File.Copy(voluntarios_imagen.ImageLocation, path, true);
-
-                                    using (SqlCommand cmd = new SqlCommand(insertData, connect))
-                                    {
-                                        cmd.Parameters.AddWithValue("@nombre", voluntarios_nombre.Text.Trim());
-                                        cmd.Parameters.AddWithValue("@genero", voluntarios_genero.Text.Trim());
-                                        cmd.Parameters.AddWithValue("@numero", voluntarios_numero.Text.Trim());
-                                        cmd.Parameters.AddWithValue("@correo", voluntarios_correo.Text.Trim());
-                                        cmd.Parameters.AddWithValue("@imagen", path);
-                                        cmd.Parameters.AddWithValue("@insertDate", today);
-
-                                        cmd.ExecuteNonQuery();
-
-                                        DisplayVoluntariosData();
-
-                                        MessageBox.Show("Añadido correctamente!", "Mensaje de Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                    }
+                                    MessageBox.Show("Añadido correctamente!", "Mensaje de Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 }
                             }
                         }
@@ -129,6 +120,11 @@ namespace RegistroDeActividades.UI
         }
 
         private void voluntario_id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

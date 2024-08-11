@@ -66,6 +66,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(942, 139);
             dataGridView1.TabIndex = 1;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label1
             // 
@@ -219,6 +220,7 @@
             voluntarios_imagen.Location = new Point(843, 22);
             voluntarios_imagen.Name = "voluntarios_imagen";
             voluntarios_imagen.Size = new Size(100, 100);
+            voluntarios_imagen.SizeMode = PictureBoxSizeMode.Zoom;
             voluntarios_imagen.TabIndex = 8;
             voluntarios_imagen.TabStop = false;
             // 

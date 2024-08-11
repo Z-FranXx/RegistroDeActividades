@@ -10,11 +10,12 @@ CREATE TABLE users
 )
 
 SELECT * FROM users
+ALTER TABLE voluntarios ADD  correo VARCHAR(MAX) NOT NULL 
+
 
 CREATE TABLE voluntarios
 (
 	id INT PRIMARY KEY IDENTITY(1,1),
-	voluntario_id VARCHAR(MAX) NULL,
 	nombre VARCHAR(MAX) NULL,
 	genero VARCHAR(MAX) NULL,
 	numero VARCHAR(MAX) NULL,
