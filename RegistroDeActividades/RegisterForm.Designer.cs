@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
             signup_btn = new Button();
             signup_password = new TextBox();
             label3 = new Label();
@@ -205,6 +206,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(panel2);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 2, 3, 2);
             Name = "RegisterForm";
             StartPosition = FormStartPosition.CenterScreen;

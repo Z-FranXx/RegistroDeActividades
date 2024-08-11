@@ -1,0 +1,13 @@
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\bin\Debug\net8.0\RegistroDeActividades.Data.deps.json
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\bin\Debug\net8.0\RegistroDeActividades.Data.dll
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\bin\Debug\net8.0\RegistroDeActividades.Data.pdb
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\RegistroDeActividades.Data.csproj.AssemblyReference.cache
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\RegistroDeActividades.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\RegistroDeActividades.Data.AssemblyInfoInputs.cache
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\RegistroDeActividades.Data.AssemblyInfo.cs
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\RegistroDeActividades.Data.csproj.CoreCompileInputs.cache
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\RegistroDeActividades.Data.sourcelink.json
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\RegistroDeActividades.Data.dll
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\refint\RegistroDeActividades.Data.dll
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\RegistroDeActividades.Data.pdb
+C:\Users\epera\OneDrive\Escritorio\Proyecto Actualizado\RegistroDeActividades.Data\obj\Debug\net8.0\ref\RegistroDeActividades.Data.dll

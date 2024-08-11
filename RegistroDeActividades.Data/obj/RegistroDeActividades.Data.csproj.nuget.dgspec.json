@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj": {}
+    "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto Actualizado\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj": {}
   },
   "projects": {
-    "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj": {
+    "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto Actualizado\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj",
+        "projectUniqueName": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto Actualizado\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj",
         "projectName": "RegistroDeActividades.Data",
-        "projectPath": "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Trabajo final_P2\\Clon1\\RegistroDeActividades.Data\\obj\\",
+        "projectPath": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto Actualizado\\RegistroDeActividades.Data\\RegistroDeActividades.Data.csproj",
+        "packagesPath": "C:\\Users\\epera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\epera\\OneDrive\\Escritorio\\Proyecto Actualizado\\RegistroDeActividades.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\epera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

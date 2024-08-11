@@ -63,8 +63,8 @@ namespace RegistroDeActividades
                             string selectData = "SELECT * FROM users WHERE username = @username " +
                                 "AND password = @password";
 
-                            using (SqlCommand cmd = new SqlCommand(selectData, connect)) 
-                            { 
+                            using (SqlCommand cmd = new SqlCommand(selectData, connect))
+                            {
                                 cmd.Parameters.AddWithValue("@username", login_username.Text.Trim());
                                 cmd.Parameters.AddWithValue("@password", login_password.Text.Trim());
 
@@ -72,31 +72,40 @@ namespace RegistroDeActividades
                                 DataTable table = new DataTable();
                                 adapter.Fill(table);
 
-                                if(table.Rows.Count > 0)
+                                if (table.Rows.Count > 0)
                                 {
                                     MessageBox.Show("Ha iniciado sesion correctamente!", "Mensaje de informacion",
                                         MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                    MainForm mForm = new MainForm();
+                                    mForm.Show();
+                                    this.Hide();
                                 }
                                 else
                                 {
-                                    MessageBox.Show("Usario/Contraseña", "Mensaje de Error",
+                                    MessageBox.Show("Usuario o Contrasena incorrecta", "Mensaje de Error",
                                        MessageBoxButtons.OK, MessageBoxIcon.Error);
                                 }
                             }
-                            
+
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Error: " + ex.Message, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
             }
-               
+
         }
 
         private void login_showPasword_CheckedChanged(object sender, EventArgs e)
         {
             login_password.PasswordChar = login_showPasword.Checked ? '\0' : '*';
+        }
+
+        private void login_username_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

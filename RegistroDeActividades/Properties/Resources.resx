@@ -118,10 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LoginRegister" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\LoginRegister.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\calendar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="volunteer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\volunteer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="research" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\research.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="division" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\division.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="analysis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\analysis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OIG2 Logo-fotor-bg-remover-20240808221534" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\OIG2 Logo-fotor-bg-remover-20240808221534.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Events" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Events.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Voluntarios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Voluntarios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginRegister" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\LoginRegister.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="analysis1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\analysis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
